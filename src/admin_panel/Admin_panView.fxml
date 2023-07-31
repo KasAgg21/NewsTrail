@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin_panel.Admin_panViewController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="23.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/personal-profile.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="30.0" layoutY="145.0" mnemonicParsing="false" onAction="#gotohk_man" prefHeight="44.0" prefWidth="90.0" text="Hawker Manager" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="140.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/client.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="147.0" layoutY="145.0" mnemonicParsing="false" onAction="#gotocus_mas" prefHeight="44.0" prefWidth="90.0" text="Customer Master" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="257.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/bill.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="264.0" layoutY="145.0" mnemonicParsing="false" onAction="#gotobill_gen" prefHeight="44.0" prefWidth="90.0" text="Bill Genarator" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="372.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/payment.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="379.0" layoutY="145.0" mnemonicParsing="false" onAction="#gotobill_coll" prefHeight="44.0" prefWidth="90.0" text="Bill Collector" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="22.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/newspaper.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="29.0" layoutY="334.0" mnemonicParsing="false" onAction="#gotopaper_mas" prefHeight="44.0" prefWidth="90.0" text="Paper Master" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="139.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/skills.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="146.0" layoutY="334.0" mnemonicParsing="false" onAction="#gotohk_table" prefHeight="44.0" prefWidth="90.0" text="Display Hawkers" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="256.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/loupe.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="263.0" layoutY="334.0" mnemonicParsing="false" onAction="#gotocst_panel" prefHeight="44.0" prefWidth="90.0" text="Customer Googler" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="150.0" fitWidth="104.0" layoutX="371.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/invoice.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="378.0" layoutY="334.0" mnemonicParsing="false" onAction="#gotobill_panel" prefHeight="44.0" prefWidth="90.0" text="Bill Status" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="114.0" layoutY="404.0" mnemonicParsing="false" onAction="#gotoabout" prefHeight="44.0" prefWidth="269.0" text="Meet the Devs" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

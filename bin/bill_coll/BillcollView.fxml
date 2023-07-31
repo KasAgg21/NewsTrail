@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bill_coll.BillcollViewController">
+   <children>
+      <Label layoutX="284.0" layoutY="32.0" text="BIll Collector" />
+      <Label layoutX="101.0" layoutY="68.0" text="Mobile Number" />
+      <Label fx:id="lblamt" layoutX="101.0" layoutY="146.0" text="Amount:-" />
+      <Label fx:id="lblfr" layoutX="101.0" layoutY="192.0" text="From:-" />
+      <Label fx:id="lblto" layoutX="101.0" layoutY="240.0" text="To :-" />
+      <Label fx:id="lblres" layoutX="281.0" layoutY="336.0" text="Message" />
+      <Button layoutX="256.0" layoutY="109.0" mnemonicParsing="false" onAction="#dofetchbilldetails" text="Fetch Bill Details" />
+      <Button layoutX="243.0" layoutY="279.0" mnemonicParsing="false" onAction="#dopaymentdone" text="Payment Done" />
+      <TextField fx:id="txtmob" layoutX="226.0" layoutY="64.0" />
+      <ImageView fitHeight="134.0" fitWidth="170.0" layoutX="408.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/payment.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

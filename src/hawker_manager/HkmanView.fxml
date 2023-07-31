@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hawker_manager.HkmanViewController">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="442.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/personal-profile.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblres" layoutX="238.0" layoutY="14.0" text="Hawker Managers" />
+      <Label layoutX="31.0" layoutY="50.0" text="Hawker Name" />
+      <Label layoutX="230.0" layoutY="50.0" text="Mobile" />
+      <Label layoutX="32.0" layoutY="121.0" text="Address" />
+      <Label layoutX="31.0" layoutY="192.0" text="Areas" />
+      <Label layoutX="231.0" layoutY="192.0" text="Allocated Areas" />
+      <Label fx:id="lblpath" layoutX="226.0" layoutY="361.0" text="PicPath" />
+      <ImageView fx:id="imgaad" fitHeight="113.0" fitWidth="127.0" layoutX="50.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="224.0" layoutY="293.0" mnemonicParsing="false" onAction="#douploadaadhar" text="Upload Aadhar" />
+      <Button layoutX="368.0" layoutY="270.0" mnemonicParsing="false" onAction="#doenroll" text="Enroll" />
+      <Button layoutX="498.0" layoutY="270.0" mnemonicParsing="false" onAction="#doupdate" text="Update" />
+      <Button layoutX="361.0" layoutY="317.0" mnemonicParsing="false" onAction="#doremove" text="Remove" />
+      <Button layoutX="506.0" layoutY="317.0" mnemonicParsing="false" onAction="#donew" text="New" />
+      <Button layoutX="142.0" layoutY="46.0" mnemonicParsing="false" onAction="#doSearch" text="Search" />
+      <TextField fx:id="txtmob" layoutX="231.0" layoutY="82.0" />
+      <TextField fx:id="txtadd" layoutX="31.0" layoutY="151.0" prefHeight="23.0" prefWidth="378.0" />
+      <TextField fx:id="txtala" editable="false" layoutX="231.0" layoutY="228.0" prefHeight="23.0" prefWidth="349.0" />
+      <ComboBox fx:id="cmbara" layoutX="31.0" layoutY="228.0" onAction="#showareas" prefWidth="150.0" />
+      <ComboBox fx:id="cmbhnm" editable="true" layoutX="31.0" layoutY="82.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="about.AbtusViewController">
+   <children>
+      <Text layoutX="159.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Devs">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="26.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/file.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="26.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/325956962_273256895101491_7232519006110434693_n.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="195.0" layoutY="59.0" text="Kashish Aggarwal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="241.0" prefHeight="22.0" prefWidth="203.0" text="Rajesh K. Bansal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="274.0" text="Aurthor of Real Java">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="199.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pursing B.Tech in Computer Engineering " wrappingWidth="124.67236328125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ImageView accessibleRole="BUTTON" fitHeight="44.0" fitWidth="39.0" layoutX="198.0" layoutY="170.0" onMouseClicked="#gogithub" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/github.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="44.0" fitWidth="39.0" layoutX="248.0" layoutY="170.0" onMouseClicked="#golinkdin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/linkedin.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="44.0" fitWidth="39.0" layoutX="304.0" layoutY="170.0" onMouseClicked="#goemail" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="44.0" fitWidth="39.0" layoutX="198.0" layoutY="316.0" onMouseClicked="#gowebsite" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/web.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
